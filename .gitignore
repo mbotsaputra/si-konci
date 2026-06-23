@@ -1,0 +1,16 @@
+# Service account key (JANGAN DIUPLOAD!)
+js/service-account.json
+*.pem
+*.key
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
