@@ -27,7 +27,8 @@ const GOOGLE_SHEETS_CONFIG = {
         jadwal: ['ID', 'Siswa_NIS', 'Siswa_Nama', 'Guru_NIP', 'Tanggal', 'Jam', 'Keterangan', 'Status']
     }
 };
-
+// Tambahkan ini di config.js
+const APP_URL = 'https://mbotsaputra.github.io/si-konci';
 // Ekspor untuk digunakan di file lain
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = { GOOGLE_SHEETS_CONFIG };
